@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portal educativo sobre a história, a engenharia e os acidentes da aviação."
+    />
+    <title>Aviação — A História do Voo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Rajdhani:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <div class="container nav-wrap">
+          <a class="brand" href="#inicio" aria-label="Voltar ao início">
+            
+          </a>
+          <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false">
+            
+          </button>
+          <nav class="main-nav" aria-label="Menu principal">
+            <a href="#inicio">Início</a>
+            <a href="#linha-do-tempo">Linha do tempo</a>
+            <a href="#acidentes">Acidentes históricos</a>
+            <a href="#funciona">Como os aviões funcionam</a>
+            <a href="#pecas-motores">Peças e motores</a>
+            <a href="#manutencao">Manutenção</a>
+            <a href="#militar">Aviação militar</a>
+            <a href="#comerciais">Aviões comerciais</a>
+            <a href="#fontes">Fontes</a>
+          </nav>
+        </div>
+      </header>
+
+      <main id="inicio">
+        <section class="hero">
+          <div class="hero-overlay"></div>
+          <div class="container hero-content reveal">
+            <div class="eyebrow">Arquivo aeronáutico • Centro de investigação técnica</div>
+            <h1>AVIAÇÃO — A HISTÓRIA DO VOO</h1>
+            <p class="lead">
+              Da primeira máquina voadora aos sistemas aeronáuticos mais avançados.
+              Conheça as invenções, as máquinas, os erros e as descobertas que
+              transformaram a maneira como o mundo voa.
+            </p>
+            <div class="hero-intro">
+              A humanidade desenvolveu a capacidade de voar por meio de avanços científicos,
+              desafios de engenharia e lições aprendidas com cada falha. O voo deixou de ser um sonho e
+              se tornou uma disciplina técnica sustentada por aerodinâmica, estruturas, eletrônica e segurança.
+            </div>
+          </div>
+        </section>
+
+        <section id="linha-do-tempo" class="timeline-section section-wrap">
+          <div class="container">
+            <div class="section-heading reveal">
+              <span class="section-kicker">Cronologia</span>
+              <h2>Linha do tempo — A evolução dos aviões</h2>
+              <p>
+                A história da aviação é uma sequência de tentativas, testes, erros e avanços.
+                Cada geração de aeronaves refletiu uma nova resposta aos desafios da sustentação,
+                do empuxo e da segurança.
+              </p>
+            </div>
+
+            <div class="timeline-grid">
+              <article class="timeline-item reveal">
+                <div class="timeline-visual">
+                  <img src="https://s2.glbimg.com/IomiAKa3tdzT46KWSdMTJQTMC_I=/e.glbimg.com/og/ed/f/original/2016/04/06/nota1.jpg" alt="Planador em voo" />
+                </div>
+                <div class="timeline-copy">
+                  <span class="timeline-date">Antiguidade até o século XIX</span>
+                  <h3>Os primeiros sonhos de voar</h3>
+                  <p>
+                    Antes dos motores, a humanidade imaginou o voo como imitação dos pássaros,
+                    observação do ar e tentativa de controlar forças invisíveis. Leonardo da Vinci
+                    estudou máquinas voadoras; balões de ar quente, planadores e estudos aerodinâmicos
+                    prepararam o caminho para a engenharia do voo.
+                  </p>
+                  <ul>
+                    <li>Leonardo da Vinci e as máquinas voadoras.</li>
+                    <li>Balões de ar quente e os primeiros vôos livres.</li>
+                    <li>George Cayley e as ideias de sustentação e estabilidade.</li>
+                    <li>Otto Lilienthal e o estudo dos planadores.</li>
+                  </ul>
+                </div>
+              </article>
+
+              <article class="timeline-item reveal">
+                <div class="timeline-visual">
+                  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Farman_Shorthorn_MF11.jpg/330px-Farman_Shorthorn_MF11.jpg?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" alt="Avião histórico em voo" />
+                </div>
+                <div class="timeline-copy">
+                  <span class="timeline-date">Final do século XIX até 1914</span>
+                  <h3>O nascimento do avião</h3>
+                  <p>
+                    A transição dos planadores para aeronaves motorizadas controláveis foi uma etapa decisiva.
+                    Os irmãos Wright dominaram o controle de voo; Santos Dumont demonstrou a viabilidade de
+                    aeronaves leves e responsivas, e o desenvolvimento de motores, asas e hélices tornou o voo
+                    um projeto técnico concreto.
+                  </p>
+                  <ul>
+                    <li>Wright Flyer e o controle do avião em três eixos.</li>
+                    <li>14-bis e a contribuição de Santos Dumont.</li>
+                    <li>Demoiselle e as primeiras aeronaves leves.</li>
+                    <li>Sustentação, empuxo, peso e arrasto em ação.</li>
+                  </ul>
+                </div>
+              </article>
+
+              <article class="timeline-item reveal">
+                <div class="timeline-visual">
+                  <img src="https://aventurasnahistoria.com.br/wp-content/uploads/guerras/amammdmd.jpg" alt="Caza militar da Primeira Guerra Mundial" />
+                </div>
+                <div class="timeline-copy">
+                  <span class="timeline-date">1914–1918</span>
+                  <h3>A Primeira Guerra Mundial</h3>
+                  <p>
+                    A guerra acelerou a engenharia aeronáutica. Aviões de reconhecimento, caças e bombardeiros
+                    exigiram estruturas mais leves, motores mais confiáveis e instrumentos mais úteis.
+                    O conflito também foi um laboratório para a evolução de cabines, armamentos e materiais.
+                  </p>
+                  <ul>
+                    <li>Sopwith Camel, Fokker Dr.I e SPAD S.XIII.</li>
+                    <li>Evolução dos motores a pistão e das hélices.</li>
+                    <li>Estruturas de madeira e tecido.</li>
+                    <li>Cabines e instrumentos modernos para voo militar.</li>
+                  </ul>
+                </div>
+              </article>
+
+              <article class="timeline-item reveal">
+                <div class="timeline-visual">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Boeing%2C_247.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" alt="Avião comercial antigo em vo" />
+                </div>
+                <div class="timeline-copy">
+                  <span class="timeline-date">1919–1938</span>
+                  <h3>A era de ouro da aviação</h3>
+                  <p>
+                    O transporte aéreo virou uma atividade civil real. As aeronaves ficaram mais confiáveis,
+                    metalizadas, confortáveis e adequadas para rotas intercontinentais. A geração de DC-3 e Boeing 247
+                    marcou a transformação do avião em transporte de massa, com passageiros, carga e serviço regular.
+                  </p>
+                  <ul>
+                    <li>Primeiros serviços regulares de transporte aéreo.</li>
+                    <li>Evolução das aeronaves metálicas e cabines fechadas.</li>
+                    <li>Amelia Earhart e pioneiros do voo internacional.</li>
+                    <li>Recordes de distância e velocidade.</li>
+                  </ul>
+                </div>
+              </article>
+
+              <article class="timeline-item reveal">
+                <div class="timeline-visual">
+                  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/P-51-361.jpg/330px-P-51-361.jpg?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" alt="Avião militar em formação" />
+                </div>
+                <div class="timeline-copy">
+                  <span class="timeline-date">1939–1945</span>
+                  <h3>A Segunda Guerra Mundial</h3>
+                  <p>
+                    O conflito colocou a aeronáutica militar em um estágio de extrema pressão por velocidade,
+                    alcance e confiabilidade. Foi a época dos caças, bombardeiros estratégicos, aeronaves de transporte,
+                    radares e dos primeiros jatos operacionais.
+                  </p>
+                  <ul>
+                    <li>Spitfire, P-51 Mustang, B-17, Zero e Me 262.</li>
+                    <li>Motores mais potentes e radar em operação.</li>
+                    <li>Bombardeiros e escoltas de longo alcance.</li>
+                    <li>Grande salto na engenharia de materiais e motores.</li>
+                  </ul>
+                </div>
+              </article>
+
+              <article class="timeline-item reveal">
+                <div class="timeline-visual">
+                  <img src="https://acervo.oglobo.globo.com/incoming/20189529-04d-da3/materia/Boeing_707_Pan_Am.jpg" alt="Jato comercial moderno" />
+                </div>
+                <div class="timeline-copy">
+                  <span class="timeline-date">1945–1960</span>
+                  <h3>O nascimento da era a jato</h3>
+                  <p>
+                    O motor a jato alterou a forma de voar. Ele operava com maior velocidade e altitude,
+                    exigindo estruturas, sistemas de pressurização e procedimentos novos. A introdução dos jatos
+                    também trouxe desafios em inspeção estrutural, manutenção e certificação.
+                  </p>
+                  <ul>
+                    <li>Como funciona um motor a jato.</li>
+                    <li>Comparação entre pistão e turbina.</li>
+                    <li>Pressurização das cabines e aumento do alcance.</li>
+                    <li>Comet, 707 e DC-8 como marcos.</li>
+                  </ul>
+                </div>
+              </article>
+
+              <article class="timeline-item reveal">
+                <div class="timeline-visual">
+                  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Ba_b747-400_g-bnle_arp.jpg/330px-Ba_b747-400_g-bnle_arp.jpg?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" alt="Avião comercial grande em pista" />
+                </div>
+                <div class="timeline-copy">
+                  <span class="timeline-date">1960–1980</span>
+                  <h3>A expansão da aviação comercial</h3>
+                  <p>
+                    O transporte aéreo tornou-se um setor global. O Boeing 747, os jatos de longo alcance e os
+                    primeiros aviões supersônicos marcaram uma fase de escala e alcance inéditos. A aviação deixou de ser
+                    um serviço especializado e passou a ser parte do cotidiano internacional.
+                  </p>
+                  <ul>
+                    <li>Expansão das companhias aéreas.</li>
+                    <li>Aumento do número de passageiros.</li>
+                    <li>Concorde e a era supersônica.</li>
+                    <li>Longa distância e operação em grande escala.</li>
+                  </ul>
+                </div>
+              </article>
+
+              <article class="timeline-item reveal">
+                <div class="timeline-visual">
+                  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Airbus-319-cockpit.jpg/250px-Airbus-319-cockpit.jpg?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" alt="Cockpit moderno com telas digitais" />
+                </div>
+                <div class="timeline-copy">
+                  <span class="timeline-date">1980–2000</span>
+                  <h3>A aviação moderna</h3>
+                  <p>
+                    A eletrônica e a automação transformaram os cockpits. O fly-by-wire, os computadores de bordo,
+                    o satélite e os materiais modernos ampliaram a eficiência, a precisão e a capacidade de operar em
+                    condições complexas. Houve também maior integração entre sistemas e operação de rotina.
+                  </p>
+                  <ul>
+                    <li>Fly-by-wire.</li>
+                    <li>Cockpits digitais e telas de missão.</li>
+                    <li>Navegação por satélite.</li>
+                    <li>Materiais compostos e eficiência de combustível.</li>
+                  </ul>
+                </div>
+              </article>
+
+              <article class="timeline-item reveal">
+                <div class="timeline-visual">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/American_787-9_%2831715090444%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=index&utm_content=original" alt="Avião moderno em voo" />
+                </div>
+                <div class="timeline-copy">
+                  <span class="timeline-date">n   até hoje</span>
+                  <h3>A aviação contemporânea</h3>
+                  <p>
+                    Os atuais aviões usam materiais leves, motores turbofan de alta eficiência, manutenção baseada em dados,
+                    monitoramento digital de componentes e maior automação. O setor também investe em combustíveis sustentáveis,
+                    aeronaves elétricas e híbridas e novas concepções de motores e estruturas.
+                  </p>
+                  <ul>
+                    <li>Airbus A350 e Boeing 787.</li>
+                    <li>Materiais compostos e motores mais eficientes.</li>
+                    <li>Combustíveis sustentáveis de aviação.</li>
+                    <li>Tecnologias em testes e certificação.</li>
+                  </ul>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section id="acidentes" class="accidents-section section-wrap">
+          <div class="container">
+            <div class="section-heading reveal">
+              <span class="section-kicker">Segurança</span>
+              <h2>Quando a aviação aprende com seus erros</h2>
+              <p>
+                Os acidentes não são apenas tragédias; são eventos de investigação que revelam falhas técnicas,
+                decisões humanas e lacunas organizacionais. A missão da investigação é aprender e prevenir recorrência.
+              </p>
+            </div>
+
+            <div class="accident-grid">
+              <article class="accident-card reveal">
+                <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Hindenburg_disaster_%281%29.jpg/250px-Hindenburg_disaster_%281%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" alt="Dirigível Hindenburg" />
+                <div class="accident-content">
+                  <span class="accident-date">1937</span>
+                  <h3>Hindenburg</h3>
+                  <p>Incêndio do dirigível Hindenburg durante o pouso: hipótese de hidrogênio, materiais e contexto tecnológico.</p>
+                </div>
+              </article>
+
+              <article class="accident-card reveal">
+                <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Grumman_TBF-1_Avengers_of_VGS-29_in_flight_over_Norfolk%2C_Virginia_%28USA%29%2C_on_1_September_1942_%2880-G-427475%29.jpg/330px-Grumman_TBF-1_Avengers_of_VGS-29_in_flight_over_Norfolk%2C_Virginia_%28USA%29%2C_on_1_September_1942_%2880-G-427475%29.jpg?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" alt="Voo 19" />
+                <div class="accident-content">
+                  <span class="accident-date">1945</span>
+                  <h3>Voo 19</h3>
+                  <p>Desaparecimento de aeronaves militares durante treino e as incógnitas da navegação e da teoria popular.</p>
+                </div>
+              </article>
+
+              <article class="accident-card reveal">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/3/34/DeHavilland_DH_Cometa_1_BOAC_G-ALYP.jpg?utm_source=pt.wikipedia.org&utm_campaign=index&utm_content=original" alt="BOAC 781" />
+                <div class="accident-content">
+                  <span class="accident-date">1954</span>
+                  <h3>BOAC 781</h3>
+                  <p>O desastre do de Havilland Comet mostrou como a fadiga estrutural e a pressurização repetida podem romper uma aeronave.</p>
+                </div>
+              </article>
+
+              <article class="accident-card reveal">
+                <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Ea401.png/330px-Ea401.png?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" alt="Voo 401" />
+                <div class="accident-content">
+                  <span class="accident-date">1972</span>
+                  <h3>Voo 401 da Eastern</h3>
+                  <p>Uma tripulação distraída por um problema técnico perdeu a consciência situacional e a pista de voo.</p>
+                </div>
+              </article>
+
+              <article class="accident-card reveal">
+                <img src="https://aventurasnahistoria.com.br/wp-content/uploads/2025/06/gettyimages-3429224-1.jpg" alt="Tenerife" />
+                <div class="accident-content">
+                  <span class="accident-date">1977</span>
+                  <h3>Tenerife</h3>
+                  <p>Colisão em baixa visibilidade; comunicação, fraseologia padronizada e coordenação entre ATC e tripulação.</p>
+                </div>
+              </article>
+
+              <article class="accident-card reveal">
+                <img src="https://thumb.wikimedia.org/wikipedia/en/thumb/b/b7/Aa191_ohare2.jpg/250px-Aa191_ohare2.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" alt="American 191" />
+                <div class="accident-content">
+                  <span class="accident-date">1979</span>
+                  <h3>American 191</h3>
+                  <p>Separação de motor na decolagem e falhas de manutenção que expuseram riscos de inspeção insuficiente.</p>
+                </div>
+              </article>
+
+              <article class="accident-card reveal">
+                <img src="https://live-production.wcms.abc-cdn.net.au/39cffb982f4c3f7ff96d20c5eb1b4976?impolicy=wcms_crop_resize&cropH=1495&cropW=2658&xPos=0&yPos=501&width=862&height=485" alt="Voo 123" />
+                <div class="accident-content">
+                  <span class="accident-date">1985</span>
+                  <h3>Japan Airlines 123</h3>
+                  <p>Falha estrutural após reparo de pressurização e a perda dos sistemas hidráulicos em voo.</p>
+                </div>
+              </article>
+
+              <article class="accident-card reveal">
+                <img src="https://media.defense.gov/2014/Aug/03/2000827968/2000/2000/0/890719-Z-AB123-001.JPG" alt="Voo 232" />
+                <div class="accident-content">
+                  <span class="accident-date">1989</span>
+                  <h3>United 232</h3>
+                  <p>Falha em componente do motor provocou perda hidráulica; a tripulação usou recursos limitados para salvar a aeronave.</p>
+                </div>
+              </article>
+
+              <article class="accident-card reveal">
+                <img src="https://s2-oglobo.glbimg.com/DGLe42M7QK_YK8bwd1XhqaQIylc=/0x0:644x433/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2022/I/Y/gTzzynSBqVxfaXTYvPUw/andes.png" alt="Uruguai voo 571" />
+                <div class="accident-content">
+                  <span class="accident-date">1972</span>
+                  <h3>Voo 571 dos Andes</h3>
+                  <p>Sobrevivência em condições extremas em montanha; um caso de decisão, improviso e coragem humana.</p>
+                </div>
+              </article>
+
+              <article class="accident-card reveal">
+                <img src="https://www.pbs.org/newshour/app/uploads/2015/10/RTS48LV-1024x658.jpg" alt="Voo MH17" />
+                <div class="accident-content">
+                  <span class="accident-date">2014</span>
+                  <h3>Malaysia Airlines 17</h3>
+                  <p>Abordagem de risco em zona de conflito; avaliação de restrições e proteção de voos civis.</p>
+                </div>
+              </article>
+
+              <article class="accident-card reveal">
+                <img src="https://images.seattletimes.com/wp-content/uploads/2019/03/urn-publicid-ap-org-6471a2f101f043348009df50ac75c688Ethiopia_Plane_Crash_06758.jpg?d=2040x1360" alt="Voo 302 Ethiopian" />
+                <div class="accident-content">
+                  <span class="accident-date">2019</span>
+                  <h3>Ethiopian 302</h3>
+                  <p>Com base em relatórios oficiais, o papel do MCAS e a interação entre automação e tripulação.</p>
+                </div>
+              </article>
+
+              <article class="accident-card reveal">
+                <img src="https://img.dhost.cloud/Bjx7YvlUlyfwqsy_LQYM0AG3dNU=/1280x720/smart/https://tdan.nyc3.digitaloceanspaces.com/images/51a5f/de9573c567cadc08c98f38ad69f7649e3ab.png" alt="Voo 447" />
+                <div class="accident-content">
+                  <span class="accident-date">2009</span>
+                  <h3>Air France 447</h3>
+                  <p>O caso do Atlântico expôs falhas em interpretação de velocidade, perda de controle e recuperação do estol.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section id="funciona" class="section-wrap technical-section">
+          <div class="container">
+            <div class="section-heading reveal">
+              <span class="section-kicker">Engenharia</span>
+              <h2>Como funciona um avião</h2>
+              <p>
+                Um avião voa quando as forças de sustentação, empuxo, peso e arrasto se equilibram de forma controlada.
+                A aerodinâmica e os sistemas de controle tornam esse equilíbrio possível em diversas condições de operação.
+              </p>
+            </div>
+
+            <div class="two-col reveal">
+              <div class="tech-panel">
+                <h3>Aerodinâmica básica</h3>
+                <ul class="check-list">
+                  <li><strong>Sustentação:</strong> força gerada pela asa quando o ar passa por ela e cria pressão diferencial.</li>
+                  <li><strong>Peso:</strong> força da gravidade que atua sobre a aeronave.</li>
+                  <li><strong>Empuxo:</strong> força produzida pelo motor para impulsionar o avião para frente.</li>
+                  <li><strong>Arrasto:</strong> resistência do ar que se opõe ao movimento.</li>
+                  <li><strong>Ângulo de ataque:</strong> o ângulo entre a corda da asa e o fluxo de ar.</li>
+                  <li><strong>Estol:</strong> perda brusca de sustentação quando o ângulo de ataque fica excessivo.</li>
+                  <li><strong>Estabilidade e controle:</strong> superfícies móveis e sistemas de comando corrigem o comportamento do avião.</li>
+                </ul>
+              </div>
+
+              <div class="tech-panel">
+                <h3>Partes externas do avião</h3>
+                <ul class="check-list">
+                  <li><strong>Fuselagem:</strong> corpo principal da aeronave, onde ficam passageiros, carga e cabines.</li>
+                  <li><strong>Asas:</strong> geram sustentação e acomodam estruturas e tanques.</li>
+                  <li><strong>Ailerons:</strong> controlam o rolamento.</li>
+                  <li><strong>Flaps e slats:</strong> aumentam a sustentação em baixas velocidades.</li>
+                  <li><strong>Profundores:</strong> controlam o arfagem do nariz.</li>
+                  <li><strong>Leme de direção:</strong> controla o guinada.</li>
+                  <li><strong>Empenagem:</strong> conjunto de estabilizadores e superfícies de cauda.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="cockpit-panels reveal">
+              <div class="tech-panel">
+                <h3>Cockpit</h3>
+                <ul class="check-list">
+                  <li>Manche ou sidestick: comando de atitude e inclinação.</li>
+                  <li>Pedais: controle do leme de direção.</li>
+                  <li>Altímetro: leitura da altitude.</li>
+                  <li>Indicador de velocidade: velocidade indicada.</li>
+                  <li>Horizonte artificial: percepção da atitude do avião.</li>
+                  <li>Piloto automático: manutenção da trajetória e níveis.</li>
+                  <li>Alertas e sistemas digitais: navegação, avisos e monitoramento.</li>
+                </ul>
+              </div>
+              <div class="cockpit-visual">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbp06dFpCUCBIkRB4r6X9gtjAjUUfLxZOOARxiEcC6Ow&s=10" alt="Cockpit de avião" />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="pecas-motores" class="section-wrap engineering-section">
+          <div class="container">
+            <div class="section-heading reveal">
+              <span class="section-kicker">Motores e peças</span>
+              <h2>Peças e motores de uma aeronave</h2>
+            </div>
+
+            <div class="engine-grid reveal">
+              <div class="engine-card">
+                <h3>Motor a pistão</h3>
+                <p>Usa combustão interna para mover um eixo e acionar hélice; comum em aeronaves leves e históricos.</p>
+              </div>
+              <div class="engine-card">
+                <h3>Turbojato</h3>
+                <p>Cria empuxo com fluxo de ar comprimido, combustão e ejeção em alta velocidade.</p>
+              </div>
+              <div class="engine-card">
+                <h3>Turbofan</h3>
+                <p>Combina compressor, câmara de combustão e bypass para alto empuxo com melhor eficiência.</p>
+              </div>
+              <div class="engine-card">
+                <h3>Turboélice</h3>
+                <p>Produz empuxo por hélice movida por turbina, eficiente em trajetos e perfis de baixa velocidade.</p>
+              </div>
+              <div class="engine-card">
+                <h3>Turboeixo</h3>
+                <p>Movimenta eixos para sistemas de rotor e aplicações especiais; muito usado em helicópteros.</p>
+              </div>
+              <div class="engine-card">
+                <h3>Elétrico</h3>
+                <p>Propulsão por motores elétricos, com baterias, células de combustível ou híbridos em desenvolvimento.</p>
+              </div>
+            </div>
+
+            <div class="parts-wrap reveal">
+              <div class="part-selector">
+                <h3>Selecione uma parte</h3>
+                <div class="part-list">
+                  <button class="part-item active" data-part="wing">Asa</button>
+                  <button class="part-item" data-part="engine">Motor</button>
+                  <button class="part-item" data-part="fuselage">Fuselagem</button>
+                  <button class="part-item" data-part="tail">Empenagem</button>
+                  <button class="part-item" data-part="landing">Trem de pouso</button>
+                  <button class="part-item" data-part="hydraulic">Sistemas hidráulicos</button>
+                </div>
+              </div>
+
+              <div class="part-visual">
+                <svg viewBox="0 0 480 380" role="img" aria-label="Vista superior de uma aeronave com suas principais partes">
+                  <g fill="#293744" stroke="#89B0D8" stroke-width="2" stroke-linejoin="round">
+                    <path d="M231 132 91 82 53 89 174 176 174 201 91 278 111 283 232 226Z"/>
+                    <path d="m249 132 140-50 38 7-121 87v25l83 77-20 5-121-57Z"/>
+                    <path d="M232 318 177 344 185 352 240 338l55 14 8-8-55-26Z"/>
+                    <path d="M231 304 201 331l15 4 24-11 24 11 15-4-30-27Z"/>
+                    <path d="M240 25c-9 20-14 43-14 72v194c0 14 6 25 14 34 8-9 14-20 14-34V97c0-29-5-52-14-72Z"/>
+                    <path d="M145 154c-12 0-19 10-19 25v28c0 15 7 25 19 25s19-10 19-25v-28c0-15-7-25-19-25Z"/>
+                    <path d="M335 154c-12 0-19 10-19 25v28c0 15 7 25 19 25s19-10 19-25v-28c0-15-7-25-19-25Z"/>
+                  </g>
+                  <path d="M240 72v234M240 150 104 94m136 75 136-75m-136 99L105 276m135-78 135 78" fill="none" stroke="#6C9FC8" stroke-width="2" stroke-dasharray="5 6" opacity=".8"/>
+                  <g fill="#101821" stroke="#89B0D8" stroke-width="2">
+                    <circle cx="216" cy="272" r="9"/>
+                    <circle cx="264" cy="272" r="9"/>
+                    <circle cx="240" cy="102" r="7"/>
+                  </g>
+                  <g class="hotspot hotspot-wing active" data-part="wing" role="button" tabindex="0" aria-label="Selecionar asa">
+                    <circle class="hotspot-ring" cx="125" cy="145" r="12"/>
+                    <circle class="hotspot-dot" cx="125" cy="145" r="6"/>
+                  </g>
+                  <g class="hotspot hotspot-engine" data-part="engine" role="button" tabindex="0" aria-label="Selecionar motor">
+                    <circle class="hotspot-ring" cx="145" cy="202" r="12"/>
+                    <circle class="hotspot-dot" cx="145" cy="202" r="6"/>
+                  </g>
+                  <g class="hotspot hotspot-fuselage" data-part="fuselage" role="button" tabindex="0" aria-label="Selecionar fuselagem">
+                    <circle class="hotspot-ring" cx="240" cy="143" r="12"/>
+                    <circle class="hotspot-dot" cx="240" cy="143" r="6"/>
+                  </g>
+                  <g class="hotspot hotspot-tail" data-part="tail" role="button" tabindex="0" aria-label="Selecionar empenagem">
+                    <circle class="hotspot-ring" cx="240" cy="329" r="12"/>
+                    <circle class="hotspot-dot" cx="240" cy="329" r="6"/>
+                  </g>
+                  <g class="hotspot hotspot-landing" data-part="landing" role="button" tabindex="0" aria-label="Selecionar trem de pouso">
+                    <circle class="hotspot-ring" cx="216" cy="272" r="12"/>
+                    <circle class="hotspot-dot" cx="216" cy="272" r="6"/>
+                  </g>
+                  <g class="hotspot hotspot-hydraulic" data-part="hydraulic" role="button" tabindex="0" aria-label="Selecionar sistemas hidráulicos">
+                    <circle class="hotspot-ring" cx="240" cy="224" r="12"/>
+                    <circle class="hotspot-dot" cx="240" cy="224" r="6"/>
+                  </g>
+                </svg>
+              </div>
+
+              <div class="part-detail">
+                <span class="section-kicker">Função</span>
+                <h3 id="part-title">Asa</h3>
+                <p id="part-description">
+                  A asa cria a sustentação necessária para manter a aeronave no ar. Seu formato, perfil aerodinâmico,
+                  a extensão e as superfícies móveis influenciam diretamente a eficiência do voo.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="manutencao" class="section-wrap maintenance-section">
+          <div class="container">
+            <div class="section-heading reveal">
+              <span class="section-kicker">Manutenção</span>
+              <h2>Por trás de cada voo seguro</h2>
+            </div>
+
+            <div class="two-col reveal">
+              <div class="tech-panel maintenance-summary">
+                <h3>Segurança construída antes da decolagem</h3>
+                <p>
+                  Cada voo seguro depende de inspeções rigorosas, registros detalhados e uma manutenção que
+                  valida a integridade da aeronave, dos motores e dos sistemas críticos antes de ela sair do solo.
+                </p>
+              </div>
+              <div class="maintenance-visual">
+                <img
+                  src="https://engenhariaaeronautica.com.br/wp-content/uploads/2019/04/cursos-de-mecanico-de-manutencao-aeronautica.jpg"
+                  alt="Equipe de manutenção aeronáutica revisando componentes do avião"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="militar" class="section-wrap military-section">
+          <div class="container">
+            <div class="section-heading reveal">
+              <span class="section-kicker">História</span>
+              <h2>Aviação de guerra e evolução militar</h2>
+            </div>
+
+            <div class="military-grid reveal">
+              <article class="military-card">
+                <img
+                  src="https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Sopwith_Camel_-_Season_Premiere_Airshow_2018_%28cropped%29.jpg/330px-Sopwith_Camel_-_Season_Premiere_Airshow_2018_%28cropped%29.jpg"
+                  alt="Sopwith Camel em voo"
+                  loading="lazy"
+                />
+                <div class="military-card-copy">
+                  <h3>Sopwith Camel</h3>
+                  <p>Caça britânico da Primeira Guerra Mundial, conhecido pela agilidade em combates a curta distância.</p>
+                </div>
+              </article>
+              <article class="military-card">
+                <img
+                  src="https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Spitfire_-_Season_Premiere_Airshow_2018_%28cropped%29.jpg/330px-Spitfire_-_Season_Premiere_Airshow_2018_%28cropped%29.jpg"
+                  alt="Supermarine Spitfire em voo"
+                  loading="lazy"
+                />
+                <div class="military-card-copy">
+                  <h3>Supermarine Spitfire</h3>
+                  <p>Caça britânico da Segunda Guerra, lembrado por sua atuação na Batalha da Grã-Bretanha.</p>
+                </div>
+              </article>
+              <article class="military-card">
+                <img
+                  src="https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/P-51-361.jpg/330px-P-51-361.jpg"
+                  alt="North American P-51 Mustang em voo"
+                  loading="lazy"
+                />
+                <div class="military-card-copy">
+                  <h3>North American P-51 Mustang</h3>
+                  <p>Caça de longo alcance dos Aliados, usado para escoltar bombardeiros durante a Segunda Guerra.</p>
+                </div>
+              </article>
+              <article class="military-card">
+                <img
+                  src="https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/A6M3_Zero_N712Z_1.jpg/330px-A6M3_Zero_N712Z_1.jpg"
+                  alt="Mitsubishi A6M Zero em voo"
+                  loading="lazy"
+                />
+                <div class="military-card-copy">
+                  <h3>Mitsubishi A6M Zero</h3>
+                  <p>Caça embarcado japonês, famoso no início da guerra por seu grande alcance e manobrabilidade.</p>
+                </div>
+              </article>
+              <article class="military-card">
+                <img
+                  src="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Messerschmitt_Me_262A_at_the_National_Museum_of_the_USAF_%28cropped%29.jpg/330px-Messerschmitt_Me_262A_at_the_National_Museum_of_the_USAF_%28cropped%29.jpg"
+                  alt="Messerschmitt Me 262 exposto em museu"
+                  loading="lazy"
+                />
+                <div class="military-card-copy">
+                  <h3>Messerschmitt Me 262</h3>
+                  <p>Jato alemão da Segunda Guerra e um dos primeiros caças a jato a entrar em operação.</p>
+                </div>
+              </article>
+              <article class="military-card">
+                <img
+                  src="https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/F-16_June_2008.jpg/330px-F-16_June_2008.jpg"
+                  alt="Caça F-16 Fighting Falcon em voo"
+                  loading="lazy"
+                />
+                <div class="military-card-copy">
+                  <h3>F-16 Fighting Falcon</h3>
+                  <p>Caça supersônico moderno, projetado para combinar agilidade com operações em diferentes missões.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section id="comerciais" class="section-wrap commercial-section">
+          <div class="container">
+            <div class="section-heading reveal">
+              <span class="section-kicker">Catálogo</span>
+              <h2>Aviões comerciais e modelos famosos</h2>
+            </div>
+            <div class="commercial-grid">
+              <article class="model-card reveal">
+                <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Douglas_DC-3%2C_SE-CFP.jpg/330px-Douglas_DC-3%2C_SE-CFP.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="Douglas DC-3 em exposição" loading="lazy" />
+                <div class="model-card-copy">
+                  <h3>Douglas DC-3</h3>
+                  <p>Entrou em serviço em 1936 e ajudou a tornar as viagens aéreas mais confiáveis e acessíveis.</p>
+                </div>
+              </article>
+              <article class="model-card reveal">
+                <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Boeing_707-321B_Pan_Am_Freer.jpg/330px-Boeing_707-321B_Pan_Am_Freer.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="Boeing 707 da Pan Am" loading="lazy" />
+                <div class="model-card-copy">
+                  <h3>Boeing 707</h3>
+                  <p>Um dos primeiros jatos comerciais de longo alcance, inaugurou uma nova era no transporte aéreo.</p>
+                </div>
+              </article>
+              <article class="model-card reveal">
+                <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/B-747_Iberia.jpg/330px-B-747_Iberia.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="Boeing 747 da Iberia" loading="lazy" />
+                <div class="model-card-copy">
+                  <h3>Boeing 747</h3>
+                  <p>O grande avião de dois andares ampliou a capacidade de passageiros em rotas internacionais.</p>
+                </div>
+              </article>
+              <article class="model-card reveal">
+                <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/British_Airways_Concorde_G-BOAC_03.jpg/330px-British_Airways_Concorde_G-BOAC_03.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="Concorde da British Airways" loading="lazy" />
+                <div class="model-card-copy">
+                  <h3>Concorde</h3>
+                  <p>Aeronave supersônica que transportou passageiros entre a Europa e a América do Norte.</p>
+                </div>
+              </article>
+              <article class="model-card reveal">
+                <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/South_African_Airlink_Boeing_737-200_Advanced_Smith.jpg/330px-South_African_Airlink_Boeing_737-200_Advanced_Smith.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="Boeing 737 em voo" loading="lazy" />
+                <div class="model-card-copy">
+                  <h3>Boeing 737</h3>
+                  <p>Jato de corredor único amplamente usado em rotas curtas e médias ao redor do mundo.</p>
+                </div>
+              </article>
+              <article class="model-card reveal">
+                <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Airbus_A320-214%2C_Airbus_Industrie_JP7617615.jpg/330px-Airbus_A320-214%2C_Airbus_Industrie_JP7617615.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="Airbus A320 em voo" loading="lazy" />
+                <div class="model-card-copy">
+                  <h3>Airbus A320</h3>
+                  <p>Família de jatos de corredor único pioneira no uso de comandos de voo digitais.</p>
+                </div>
+              </article>
+              <article class="model-card reveal">
+                <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Cathay_Pacific_Boeing_777-200%3B_B-HNL%40HKG.jpg/330px-Cathay_Pacific_Boeing_777-200%3B_B-HNL%40HKG.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="Boeing 777 da Cathay Pacific" loading="lazy" />
+                <div class="model-card-copy">
+                  <h3>Boeing 777</h3>
+                  <p>Jato bimotor de grande porte projetado para voos de longa distância com eficiência.</p>
+                </div>
+              </article>
+              <article class="model-card reveal">
+                <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/A6-EDY_A380_Emirates_31_jan_2013_jfk_%288442269364%29_%28cropped%29.jpg/330px-A6-EDY_A380_Emirates_31_jan_2013_jfk_%288442269364%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="Airbus A380 da Emirates" loading="lazy" />
+                <div class="model-card-copy">
+                  <h3>Airbus A380</h3>
+                  <p>O maior avião comercial de passageiros, com dois andares completos e grande capacidade.</p>
+                </div>
+              </article>
+              <article class="model-card reveal">
+                <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Boeing_787_N1015B_ANA_Airlines_%2827611880663%29_%28cropped%29.jpg/330px-Boeing_787_N1015B_ANA_Airlines_%2827611880663%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="Boeing 787 Dreamliner da ANA" loading="lazy" />
+                <div class="model-card-copy">
+                  <h3>Boeing 787 Dreamliner</h3>
+                  <p>Usa materiais compostos e motores eficientes para realizar voos de longa distância.</p>
+                </div>
+              </article>
+              <article class="model-card reveal">
+                <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/EGLF_-_Airbus_A350-941_-_F-WZNW.jpg/330px-EGLF_-_Airbus_A350-941_-_F-WZNW.jpg?utm_source=en.wikipedia.org&amp;utm_campaign=api&amp;utm_content=thumbnail" alt="Airbus A350 em voo" loading="lazy" />
+                <div class="model-card-copy">
+                  <h3>Airbus A350</h3>
+                  <p>Jato de longo alcance que combina materiais leves e sistemas modernos de voo.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-wrap investigation-section">
+          <div class="container">
+            <div class="section-heading reveal">
+              <span class="section-kicker">Investigação</span>
+              <h2>Investigação de acidentes e segurança de voo</h2>
+            </div>
+
+            <div class="investigation-flow reveal">
+              <div class="flow-step">
+                <span>01</span>
+                <h3>Acidente</h3>
+                <p>Coleta inicial de dados, mobilização e preservação da área.</p>
+              </div>
+              <div class="flow-step">
+                <span>02</span>
+                <h3>Evidências</h3>
+                <p>FDR, CVR, radar, meteorologia, destroços e documentação.</p>
+              </div>
+              <div class="flow-step">
+                <span>03</span>
+                <h3>Análise</h3>
+                <p>Testes, simulações, inspeção de motores e componentes.</p>
+              </div>
+              <div class="flow-step">
+                <span>04</span>
+                <h3>Recomendação</h3>
+                <p>Alterações em operação, manutenção, treinamento e projeto.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-wrap curiosities-section">
+          <div class="container">
+            <div class="section-heading reveal">
+              <span class="section-kicker">Curiosidades</span>
+              <h2>Mitologia e fatos da aviação</h2>
+            </div>
+            <div class="curiosity-grid">
+              <article class="curiosity-card reveal"><h3>Por que aviões deixam rastros brancos?</h3><p>O rastro é formado por condensação de vapor de água em alta altitude e baixa temperatura, semelhante ao vapor de uma exalação em um ambiente frio.</p></article>
+              <article class="curiosity-card reveal"><h3>Por que as janelas são arredondadas?</h3><p>Para reduzir concentrações de tensão em pontos de alta pressão e melhorar a resistência estrutural da fuselagem.</p></article>
+              <article class="curiosity-card reveal"><h3>Por que as asas flexionam?</h3><p>Essa flexão é prevista e ajuda a distribuir carga, reduzir tensão em pontos críticos e melhorar a eficiência aerodinâmica.</p></article>
+              <article class="curiosity-card reveal"><h3>Por que voam em grandes altitudes?</h3><p>Menor resistência e melhor eficiência do motor em certas altitudes, além de maior separação das rotas e redução de turbulência em alguns casos.</p></article>
+              <article class="curiosity-card reveal"><h3>O que acontece quando um avião é atingido por um raio?</h3><p>Ele é conduzido pela estrutura metálica e, em muitos casos, não provoca dano imediato significativo se a aeronave estiver dentro do projeto e manutenção adequada.</p></article>
+              <article class="curiosity-card reveal"><h3>Como um avião voa com um motor só?</h3><p>Os projetos consideram o desempenho em condições de motor único, com limites operacionais e procedimentos específicos de altitude, velocidade e rota.</p></article>
+              <article class="curiosity-card reveal"><h3>Por que as máscaras caem?</h3><p>Quando a cabine perde pressão, as máscaras são liberadas automaticamente para garantir oxigênio em situações de descompressão.</p></article>
+              <article class="curiosity-card reveal"><h3>Para que servem as turbinas de emergência?</h3><p>Elas abastecem energia elétrica e hidráulica em situações críticas de falha do sistema principal.</p></article>
+            </div>
+          </div>
+        </section>
+
+      </main>
+
+      <footer id="fontes" class="site-footer">
+        <div class="container footer-grid">
+          <div>
+            <h3>Aviação — a história do voo</h3>
+            <p>Portal educativo que reúne história aeronáutica, engenharia, investigação e evolução tecnológica.</p>
+          </div>
+          <div>
+            <h4>Fontes e referências</h4>
+            <ul>
+              <li>CENIPA</li>
+              <li>NTSB</li>
+              <li>BEA</li>
+              <li>FAA</li>
+              <li>EASA</li>
+              <li>ICAO</li>
+            </ul>
+          </div>
+          <div>
+            <h4>Créditos</h4>
+            <p>Imagens de arquivo, museus aeronáuticos e fontes de referência para uso educacional.</p>
+          </div>
+        </div>
+        <div class="footer-bottom container">
+          <span>© <span id="year"></span> Portal de Aviação</span>
+          <span>Conteúdo educativo e técnico em português brasileiro.</span>
+        </div>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
